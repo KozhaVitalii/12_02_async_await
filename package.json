@@ -1,26 +1,26 @@
 {
-  "name": "parcel-project-template",
+  "name": "12_02_async_await",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
+    "dev": "parcel src/index.html",
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /12_02_async_await/",
+    "server": "json-server --watch db.json -p 4040 -d 300"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/KozhaVitalii/12_02_async_await.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Vitaliy Kozha <kozhavitaliy@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/KozhaVitalii/12_02_async_await/issues"
   },
-  "dependencies": {
-    "modern-normalize": "^1.1.0"
-  },
+  "homepage": "https://KozhaVitalii.github.io/12_02_async_await",
   "devDependencies": {
+    "json-server": "^0.17.3",
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
